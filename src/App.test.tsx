@@ -1,9 +1,10 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
+test("renders the app without crashing", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  // Update or replace with an assertion relevant to your App's content
+  const element = screen.getByText(/Edit Portable Barbecue Grill/i); // replace with text relevant to your app
+  expect(element).toBeInTheDocument();
 });
