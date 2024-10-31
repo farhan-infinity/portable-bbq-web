@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import ProductEdit from "./ProductEdit";
+import ProductEdit from ".";
 
 // Utility function to check if all required sections are rendered
 const sectionTitles = [
