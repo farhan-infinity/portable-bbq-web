@@ -22,7 +22,7 @@ module.exports = {
   plugins: ["react", "prettier", "@typescript-eslint"], // Add @typescript-eslint plugin
   rules: {
     "prettier/prettier": "error",
-    "no-debugger": "off", // Allow debugger statements
+    // "no-debugger": "off", // Allow debugger statements
     // Add any additional rules you want to customize here
   },
   settings: {
