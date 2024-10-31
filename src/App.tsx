@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
 import ProductEdit from "./app/pages/ProductEdit"; // Main product edit page
 import Availability from "./app/pages/Availability"; // Availability component
 import Category from "./app/pages/Category"; // Category component
